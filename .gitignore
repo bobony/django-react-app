@@ -1,0 +1,7 @@
+bin
+include
+lib
+*.py[cod]
+server/db.sqlite3
+client/node_modules
+

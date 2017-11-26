@@ -1,0 +1,53 @@
+{
+  "name": "react-blog",
+  "version": "1.0.0",
+  "description": "A Simple starter kit for React",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bobony/reactjs-redux-starter-kit"
+  },
+  "author": "Anil Kumar",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node_modules/.bin/webpack-dev-server",
+    "build": "node_modules/.bin/webpack --config webpack.config.prod.js "
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "history": "^4.7.2",
+    "jquery": "^3.2.1",
+    "moment": "^2.19.2",
+    "prop-types": "^15.5.8",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-router-dom": "^4.2.2",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.8.0",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.8.0",
+    "babel-runtime": "^6.23.0",
+    "css-loader": "^0.28.4",
+    "eventsource-polyfill": "0.9.6",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.28.0",
+    "standard": "^10.0.2",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "standard": {
+    "globals": [
+      "localStorage",
+      "__DEBUG__",
+      "fetch"
+    ]
+  }
+}
