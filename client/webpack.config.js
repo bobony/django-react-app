@@ -10,7 +10,8 @@ module.exports = {
   },
   devServer: {
     compress: true,
-    port: 3000
+    port: 3000,
+    historyApiFallback: true
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),

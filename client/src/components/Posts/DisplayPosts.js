@@ -29,8 +29,7 @@ class Posts extends Component {
     const {posts} = this.state
     return (
       <div className='container'>
-        <h1>Awesome Posts</h1>
-        <Link to={`${this.props.match.url}header`}><h3 style={{textTransform: 'uppercase'}}>header</h3></Link>
+        <p><span style={{fontSize: 28}}> Awesome Posts </span> <button className='btn btn-success'><Link to={`/post/add`} style={{color: '#fff'}}><i className='glyphicon glyphicon-plus' /> Add Post</Link></button></p>
         {posts.map((post, index) => {
           return (
             <div key={index} style={{border: '1px solid #aaa', padding: 15, marginBottom: 15}}>

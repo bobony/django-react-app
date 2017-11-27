@@ -1,0 +1,10 @@
+.primary-header {
+  margin-top: 20px;
+}
+.active {
+  color: #333;
+}
+
+nav a {
+  padding-right: 10px;
+}
